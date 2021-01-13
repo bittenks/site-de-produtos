@@ -13,7 +13,8 @@ body {
 
 a {
     color: black;
-    text-decoration: none;
+    
+    
 }
 
 .hamburger {
@@ -80,8 +81,10 @@ a {
 
 .slide img {
     object-fit:contain;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    
+    
 }
 
 .slide h1 {
@@ -91,9 +94,16 @@ a {
 }
 
 .slide a {
-    background-color: #1f1f1f;
+    background-color: white;
+    border-radius:inherit ;
     padding: 1rem 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.slide a:hover{
+    opacity: 1;
+    transition: transform 0.4s ease-in-out;
 }
 
 .arrow {
@@ -117,7 +127,7 @@ a {
 }
 
 nav {
-    background-color: #9ba4b4;
+    background-color: #A31D28;
     position:fixed;
     top: 0;
     left: 0;
