@@ -271,7 +271,9 @@ nav ul li :hover {
     .logo i{
         font-size: 1.4rem;
     }
-
+    nav ul li.credits {
+        font-size: 0.2rem;
+    }
     }
 
     
