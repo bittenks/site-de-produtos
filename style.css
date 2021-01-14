@@ -143,6 +143,14 @@ a {
 .right-arrow {
     right: 2rem;
 }
+.rodape {
+    grid-area: f / f / f / f;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:;
+    text-align: center;
+}
 
 nav {
     background-color: #DEE7E6;
