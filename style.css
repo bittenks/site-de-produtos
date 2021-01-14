@@ -58,8 +58,9 @@ a {
 }
 
 .logo h2 {
-    font-weight: normal;
+    font-weight: bolder;
     margin: 0;
+    text-shadow: 2px 2px black;
 }
 
 .logo p {
@@ -103,6 +104,7 @@ a {
     color: white;
     font-size: 4rem;
     margin-top: -2rem;
+    text-shadow: 2px 2px black;
     
 }
 
@@ -120,6 +122,11 @@ a {
 }
 
 .slide a:hover{
+    opacity: 1;
+    transition: transform 0.4s ease-in-out;
+}
+
+.arrow:hover{
     opacity: 1;
     transition: transform 0.4s ease-in-out;
 }
@@ -148,7 +155,6 @@ a {
     -webkit-box-align: center;
     align-items: center;
     justify-content: center;
-    margin-bottom:;
     text-align: center;
 }
 
@@ -198,7 +204,7 @@ nav ul li :hover {
     font-size: 1.4rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     body{
         align-items: center;
         position:fixed;
