@@ -256,7 +256,12 @@ nav ul li :hover {
         
         margin-top: 10rem;
     }
-    
+    .logo p {
+        color: #1f1f1f;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: -5rem;
+    }
     
 
     }
