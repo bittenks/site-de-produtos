@@ -103,6 +103,11 @@ a {
     color: white;
     font-size: 4rem;
     margin-top: -2rem;
+    
+}
+
+.slide h2 {
+   font-style: bold;
 }
 
 .slide a {
