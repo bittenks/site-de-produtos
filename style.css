@@ -8,15 +8,18 @@ html,body{
     position:fixed;
     width: 100%;
     height:100%;
+    text-align: center;
 }
 header {
     height: 100%;
+    text-align: center;
 }
 body {
     background-color: #A31D28;
     font-family: "Roboto", sans-serif;
     margin: 0;
     transition: background 0.4s ease-in-out;
+    text-align: center;
 }
 
 a {
@@ -70,7 +73,7 @@ a {
     position: relative;
     height: 60vh;
     width: 100vw;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .carousel {
@@ -88,7 +91,8 @@ a {
 }
 
 .slide img {
-    object-fit:contain;
+    object-fit: fill;
+    text-align: center;
     height: 300px;
     width: 300px;
    
@@ -103,10 +107,11 @@ a {
 
 .slide a {
     background-color: white;
-    border-radius:inherit ;
+    border-radius: 5px ;
     padding: 1rem 2rem;
     font-size: 1rem;
-    opacity: 0.5;
+    opacity: 0.8;
+    
 }
 
 .slide a:hover{
@@ -191,17 +196,13 @@ nav ul li :hover {
     .height-80 {
         height: 80vh;
     }
-    .nome {
-     font-size: 1.5rem;
-     padding: 1rem 2rem;
-    }
+   
 
     .slide img {
-        width: 100;
-        height: 100;
-        object-fit:contain;
-        align-items: center;
-
+        
+        text-align: center;
+        height: 200px;
+        width: 200px;
     }
     .left-arrow {
         left: 0.5rem;
@@ -225,6 +226,19 @@ nav ul li :hover {
     .phone{
         font-size: 2rem;
     }
+
+    .slide h1 {
+        color: white;
+        font-size: 3rem;
+        margin-top: -2rem;
+    }
+
+    .carousel-container {
+        
+        margin-top: 10rem;
+    }
+    
+    
 
     }
 
