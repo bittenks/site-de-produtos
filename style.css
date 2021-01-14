@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html,body{
+    position:fixed;
+    width: 100%;
+    height:100%;
+}
+header {
+    height: 100%;
+}
 body {
     background-color: #A31D28;
     font-family: "Roboto", sans-serif;
@@ -127,7 +135,7 @@ a {
 }
 
 nav {
-    background-color: #A31D28;
+    background-color: #DEE7E6;
     position:fixed;
     top: 0;
     left: 0;
@@ -135,6 +143,11 @@ nav {
     padding: 2rem;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+nav #backgorund{
+    opacity: 0.1;
 }
 
 nav.active {
@@ -166,3 +179,42 @@ nav ul li :hover {
     color: black;
     font-size: 1.4rem;
 }
+
+@media (max-width: 600px) {
+    body{
+        align-items: center;
+        position:fixed;
+    width: 100%;
+    height:100%;
+        
+    }
+    .height-80 {
+        height: 80vh;
+    }
+    .nome {
+     font-size: 1.5rem;
+     padding: 1rem 2rem;
+    }
+
+    .slide img{
+        width: 100;
+        height: 100;
+        object-fit:contain;
+        align-items: center;
+
+    }
+    .left-arrow {
+        left: 0.5rem;
+    }
+    
+    .right-arrow {
+        right: 0.5rem;
+    }
+
+    .arrow{
+        font-size: 2rem;
+    }
+
+    }
+
+    
