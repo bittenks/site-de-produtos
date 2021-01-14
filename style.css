@@ -159,7 +159,7 @@ a {
 }
 
 nav {
-    background-color: #DEE7E6;
+    background-color: #394867;
     position:fixed;
     top: 0;
     left: 0;
@@ -167,7 +167,8 @@ nav {
     padding: 2rem;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-    opacity: 0.9;
+    opacity: 1;
+
 }
 
 nav #backgorund{
@@ -261,8 +262,15 @@ nav ul li :hover {
         font-weight: bold;
         margin: 0;
         margin-bottom: -5rem;
+        font-size: 1.4rem;
     }
-    
+
+    .logo h2 {
+        font-size: 2rem;
+    }
+    .logo i{
+        font-size: 1.4rem;
+    }
 
     }
 
